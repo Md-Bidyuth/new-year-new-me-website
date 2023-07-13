@@ -46,7 +46,7 @@ header{
 
 
 .main-first-img img{
-    width: 350px;
+    width: 440px;
     /* margin: auto; */
     margin-left: 40px;
 }
@@ -55,11 +55,12 @@ header{
     display: flex;
     justify-content: space-around;
     margin: 100px;  
+    align-items: center;
  }
 
 
  .main-first-text{
-    width:400px;
+    width:300px;
     margin: auto;
  }
  
@@ -75,4 +76,72 @@ header{
     list-style: none;
     font-size: 12px;
     padding: 2px;
+ }
+
+ .plan-container{
+    margin-bottom: 100px;
+ }
+
+ .plan-container h3{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+ }
+ .section2-container{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+ }
+
+ .section2-container h2{
+    margin-bottom: 10px;
+ }
+
+ .section2-container p{
+    font-size: 20px;
+ }
+
+ .section-parts-container{
+           text-align: center;
+ }
+
+ .section-parts-container img{
+    width:70px;
+    margin-bottom: 10px;
+ }
+
+ .positive-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width:70%;
+    height:220px;
+    margin:auto;
+    /* padding:10px 40px; */
+    /* background-color: aqua;  */
+    background-image: url('./images/watch.png'),linear-gradient(to right,rgb(221, 85, 0),rgba(107, 99, 99, 0.4));
+    /*   */background-blend-mode: overlay;
+    padding-left: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    background-size: cover;
+ }
+
+ .positive-mind h1{
+    color:white;
+    font-size: 30px;
+    padding-bottom: 10px;
+    
+ }
+
+ .positive-button{
+           color: #F15B22;
+           font-size: 16px;
+           font-weight: bold;
+           background-color: white;
+           padding: 15px 25px;
+           border:none;
+           border-radius: 5px;
+           
  }
