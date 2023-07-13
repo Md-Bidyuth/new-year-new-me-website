@@ -1,0 +1,45 @@
+/* universal selector */
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+
+/* header */
+
+header{
+    background-image: url('./images/banner/banner1.png');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 163px 100px;
+    
+}
+
+.header-container{
+    width:40%;
+    margin-left: 50%;
+    text-align: right;
+
+
+
+}
+
+.header-container h1{
+    font-size: 45px;
+}
+
+
+.header-container p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header-container button{
+          color: white;
+          background-color: #F15B22;
+          border-radius: 4px;
+          border:none;
+          padding:14px 25px;
+}
