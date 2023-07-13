@@ -144,3 +144,59 @@ header{
            border-radius: 5px;
            
  }
+
+ footer{
+    width:100;
+    height: 450px;
+    background-color: black;
+ }
+
+ .footer-container{
+    padding-top:100px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    /* align-items: center; */
+    
+ }
+
+.footer-left{
+    width:400px;
+}
+
+.footer-left h1{
+    padding-bottom: 20px;
+}
+
+.footer-left p{
+    padding: 10px 0px;
+    font-size: 14px;
+    width: 330px;
+}
+
+.footer-img img{
+    padding-top: 10px;
+    padding-right: 10px;
+    width:35px;
+}
+ footer h1,footer p,footer h3{
+    color:white;
+ }
+
+
+ .footer-right{
+    margin-right: 50px;
+ }
+
+ .footer-right h3{
+        font-size: 24px;
+ }
+ #email{
+    padding: 15px 75px 15px 15px;
+    /* width:300px; */
+    display: block;
+    margin: 20px 0px 15px 0px;
+    background-color: black;
+    border: 1.5px solid rgb(200, 194, 194);
+    border-radius: 5px;
+ }
