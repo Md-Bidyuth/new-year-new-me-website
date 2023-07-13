@@ -43,3 +43,36 @@ header{
           border:none;
           padding:14px 25px;
 }
+
+
+.main-first-img img{
+    width: 350px;
+    /* margin: auto; */
+    margin-left: 40px;
+}
+
+ .main-first-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;  
+ }
+
+
+ .main-first-text{
+    width:400px;
+    margin: auto;
+ }
+ 
+ .section-title{
+    font-size: 30px;
+ }
+ .main-first-text p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+
+ .main-first-text ul li{
+    list-style: none;
+    font-size: 12px;
+    padding: 2px;
+ }
